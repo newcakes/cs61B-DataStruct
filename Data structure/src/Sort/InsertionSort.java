@@ -45,9 +45,9 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[10];
+        int[] arr = new int[100];
         for (int i = 0; i < arr.length; i++) {
-            int Ranval = StdRandom.uniform(0, 100);
+            int Ranval = StdRandom.uniform(0, arr.length);
             arr[i] = Ranval;
         }
         System.out.print("排序前：");
